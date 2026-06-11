@@ -6,20 +6,25 @@ public class prime {
 
            Scanner scan = new Scanner(System.in);
            int num = scan.nextInt();
-           int count =0;
-           if(num >0 || num<2)
+
+           if(num >0 && num<2)
            {
-               System.out.println(num);
+               System.out.println("Not prime number ");
            }
            else{
-               for(int i =2;i<=25;i++)
+               for(int i =2;i<=num;i++)
                {
+                   int count =0;
                    for(int j=2;j<i;j++)
                    {
                        if(i%j==0)
                        {
                            count = count+1;
                        }
+                   }
+                   if(count==0)
+                   {
+                       System.out.print(i+" ");
                    }
                }
            }
