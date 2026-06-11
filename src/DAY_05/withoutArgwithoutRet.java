@@ -1,6 +1,6 @@
 package DAY_05;
 import java.util.*;
-public class methods {
+public class withoutArgwithoutRet {
     public static void main(String args[])
     {
         StudentDetails();
