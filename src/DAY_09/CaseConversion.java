@@ -6,9 +6,14 @@ public class CaseConversion {
         String a="JAVA";
         String b="jAva";
         a=a.toLowerCase();
-        System.out.println(a);
+      ;
         b=b.toLowerCase();
-        System.out.println(b);
-        System.out.println(a.equalsIgnoreCase(b));
+    if(a.equals(b))
+    {
+        System.out.println("the string is same");
+    }
+    else{
+        System.out.println("the string is not a same");
+    }
     }
 }
